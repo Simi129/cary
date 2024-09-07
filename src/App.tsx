@@ -27,7 +27,7 @@ export const App: React.FC = () => {
 
   const connectWallet = async () => {
     const tonConnectSDK = new TonConnect({
-      manifestUrl: 'https://example.com/tonconnect-manifest.json'
+      manifestUrl: 'https://simi129.github.io/CARY/tonconnect-manifest.json'
     });
     
     try {
